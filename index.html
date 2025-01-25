@@ -785,7 +785,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="mailto:contact.clairvoyancemedium@gmail.com" target="_blank" rel="noopener noreferrer">KAPCSOLAT</a>
         <br>
         <br>
-        <a href="https://www.clairvoyancemedium.com/Conditions-Generales-des-Ventes-et-d-Utilisation-ccsaaaaaa.asp" target="_blank" rel="noopener noreferrer">© 2025 ClairVoyanceMedium.com - Minden jog fenntartva</a>
+        <a href="https://www.clairvoyancemedium.com/Conditions-Generales-des-Ventes-et-d-Utilisation-ccsaaaaaa.asp" target="_blank" rel="noopener noreferrer">
+  © <span id="current-year"></span> ClairVoyanceMedium.com - Minden jog fenntartva
+</a>
+
+<script>
+  // Az aktuális év lekérdezése
+  const currentYear = new Date().getFullYear();
+  // Az év beszúrása az "current-year" ID-jű elembe
+  document.getElementById("current-year").textContent = currentYear;
+</script>
         <br>
         <br>
     </footer>
